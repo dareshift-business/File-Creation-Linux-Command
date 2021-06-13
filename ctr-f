@@ -1,0 +1,9 @@
+echo "Enter some text"
+
+read t
+
+echo "Enter a name"
+
+read fn
+
+echo $t > "$fn"
